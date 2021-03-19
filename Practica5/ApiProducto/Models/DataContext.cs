@@ -13,6 +13,6 @@ namespace ApiProducto.Models
 
         }
 
-
+        public System.Data.Entity.DbSet<ApiProducto.Models.Producto> Productoes { get; set; }
     }
 }
